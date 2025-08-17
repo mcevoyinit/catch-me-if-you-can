@@ -90,4 +90,35 @@ This is about democratizing regulatory intelligence and creating a level playing
 
 ---
 
+## 🚀 Quick Start
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run demo
+python main.py demo
+
+# Start API server
+python main.py api
+
+# Run tests
+python -m pytest tests/
+```
+
+## 📦 Project Structure
+
+```
+catch-me-if-you-can/
+├── core/           # EV calculation engine
+├── oracles/        # Data sources
+├── attestation/    # TEE & blockchain
+├── api/            # REST endpoints
+├── examples/       # Usage examples
+├── tests/          # Unit tests
+└── docs/           # Documentation
+```
+
+---
+
 *Built with ❤️ at ETH Global NYC*
