@@ -3,7 +3,7 @@ Data models for the Regulatory Navigation Protocol
 """
 
 from dataclasses import dataclass
-from typing import Optional, Dict, Any
+from typing import Optional, Dict, Any, List
 from enum import Enum
 from datetime import datetime
 
@@ -118,3 +118,12 @@ class Actor:
     def can_afford_strategy(self, strategy: Strategy) -> bool:
         """Check if actor can afford to implement strategy"""
         return self.capital_available >= strategy.implementation_cost
+    
+    def get_risk_profile(self) -> str:
+        """Get risk profile description"""
+        if self.risk_tolerance < 0.3:
+            return "Conservative"
+        elif self.risk_tolerance < 0.7:
+            return "Moderate"
+        else:
+            return "Aggressive"
