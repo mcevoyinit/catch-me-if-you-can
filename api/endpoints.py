@@ -205,4 +205,21 @@ def create_app():
             "summary": summary
         })
     
+    @app.route('/jurisdictions', methods=['GET'])
+    def list_jurisdictions():
+        """List supported jurisdictions"""
+        return jsonify({
+            "jurisdictions": ["US", "EU", "UK", "SG", "AE", "PT", "JP"],
+            "total": 7
+        })
+    
+    @app.route('/strategy-types', methods=['GET'])
+    def list_strategy_types():
+        """List available strategy types"""
+        from core.models import StrategyType
+        return jsonify({
+            "types": [t.value for t in StrategyType],
+            "total": len(StrategyType)
+        })
+    
     return app
