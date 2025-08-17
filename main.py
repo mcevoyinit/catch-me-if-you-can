@@ -1,5 +1,5 @@
 """
-ArbiLens Protocol - Main Entry Point
+Catch Me If You Can Protocol - Main Entry Point
 ETH Global NYC Hackathon
 """
 
@@ -11,16 +11,17 @@ from examples.startup_sandbox import run_startup_sandbox_example
 
 
 def print_banner():
-    """Print ArbiLens banner"""
+    """Print Catch Me If You Can banner"""
     banner = """
     ╔═══════════════════════════════════════════════════════════╗
     ║                                                           ║
-    ║     █████╗ ██████╗ ██████╗ ██╗██╗     ███████╗███╗   ██╗███████╗
-    ║    ██╔══██╗██╔══██╗██╔══██╗██║██║     ██╔════╝████╗  ██║██╔════╝
-    ║    ███████║██████╔╝██████╔╝██║██║     █████╗  ██╔██╗ ██║███████╗
-    ║    ██╔══██║██╔══██╗██╔══██╗██║██║     ██╔══╝  ██║╚██╗██║╚════██║
-    ║    ██║  ██║██║  ██║██████╔╝██║███████╗███████╗██║ ╚████║███████║
-    ║    ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝╚══════╝╚══════╝╚═╝  ╚═══╝╚══════╝
+    ║   ██████╗ █████╗ ████████╗ ██████╗██╗  ██╗              ║
+    ║  ██╔════╝██╔══██╗╚══██╔══╝██╔════╝██║  ██║              ║
+    ║  ██║     ███████║   ██║   ██║     ███████║              ║
+    ║  ██║     ██╔══██║   ██║   ██║     ██╔══██║              ║
+    ║  ╚██████╗██║  ██║   ██║   ╚██████╗██║  ██║              ║
+    ║   ╚═════╝╚═╝  ╚═╝   ╚═╝    ╚═════╝╚═╝  ╚═╝              ║
+    ║        ME IF YOU CAN                                      ║
     ║                                                           ║
     ║        The Regulatory Navigation Protocol ⚖️             ║
     ║        ETH Global NYC Hackathon 2024                     ║
@@ -33,7 +34,7 @@ def print_banner():
 def run_demo():
     """Run demonstration examples"""
     print_banner()
-    print("\n🚀 Running ArbiLens Protocol Demonstrations\n")
+    print("\n🚀 Running Catch Me If You Can Protocol Demonstrations\n")
     
     print("Select a demo:")
     print("1. Digital Nomad Tax Optimization")
@@ -60,7 +61,7 @@ def run_demo():
 def run_api(host='0.0.0.0', port=5000, debug=False):
     """Run the Flask API server"""
     print_banner()
-    print(f"\n🌐 Starting ArbiLens API Server")
+    print(f"\n🌐 Starting Catch Me If You Can API Server")
     print(f"   Host: {host}")
     print(f"   Port: {port}")
     print(f"   Debug: {debug}")
@@ -80,7 +81,7 @@ def run_api(host='0.0.0.0', port=5000, debug=False):
 def main():
     """Main entry point with CLI arguments"""
     parser = argparse.ArgumentParser(
-        description='ArbiLens Protocol - Regulatory Navigation and Compliance Engine'
+        description='Catch Me If You Can Protocol - Regulatory Navigation and Compliance Engine'
     )
     
     subparsers = parser.add_subparsers(dest='command', help='Available commands')

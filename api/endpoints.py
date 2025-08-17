@@ -31,7 +31,7 @@ def create_app():
     @app.route('/health', methods=['GET'])
     def health_check():
         """Health check endpoint"""
-        return jsonify({"status": "healthy", "service": "ArbiLens Protocol"})
+        return jsonify({"status": "healthy", "service": "Catch Me If You Can Protocol"})
     
     @app.route('/evaluate', methods=['POST'])
     def evaluate_strategy():

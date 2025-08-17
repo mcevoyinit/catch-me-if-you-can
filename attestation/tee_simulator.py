@@ -154,7 +154,7 @@ class TEESimulator:
             },
             "primaryType": "Attestation",
             "domain": {
-                "name": "ArbiLens Protocol",
+                "name": "Catch Me If You Can Protocol",
                 "version": "1",
                 "chainId": 1  # Ethereum mainnet
             },

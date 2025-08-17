@@ -1,7 +1,7 @@
 # ETH Global NYC Hackathon Submission
 
 ## Project name
-**ArbiLens: The Regulatory Navigation Protocol**
+**Catch Me If You Can: The Regulatory Navigation Protocol**
 
 ## What category does your project belong to?
 **Artificial Intelligence**
@@ -22,7 +22,7 @@
 ## Description
 *Go in as much detail as you can about what this project is. Please be as clear as possible!*
 
-ArbiLens is an AI-powered Web3 protocol that democratizes access to regulatory intelligence, helping individuals and small businesses navigate complex international compliance requirements that traditionally only large corporations could afford to understand.
+Catch Me If You Can is an AI-powered Web3 protocol that democratizes access to regulatory intelligence, helping individuals and small businesses navigate complex international compliance requirements that traditionally only large corporations could afford to understand.
 
 **The Problem:**
 Small businesses, startups, and digital nomads face massive disadvantages when operating internationally. While large corporations have teams of lawyers to navigate tax treaties, regulatory sandboxes, and compliance requirements, smaller players are left guessing. This creates an unfair playing field where only the wealthy can access opportunities like:
@@ -32,7 +32,7 @@ Small businesses, startups, and digital nomads face massive disadvantages when o
 - International business structuring
 
 **Our Solution:**
-ArbiLens provides an AI-driven compliance navigation engine that:
+Catch Me If You Can provides an AI-driven compliance navigation engine that:
 1. **Analyzes Opportunities**: Uses LLMs to understand complex regulatory frameworks across jurisdictions
 2. **Calculates Expected Value**: Determines the financial benefit of legitimate compliance strategies
 3. **Assesses Requirements**: Maps out exactly what's needed for full compliance
@@ -55,7 +55,7 @@ This isn't about avoiding regulations – it's about democratizing the sophistic
 ## How it's made
 *Tell us about how you built this project; the nitty-gritty details. What technologies did you use? How are they pieced together?*
 
-ArbiLens combines cutting-edge AI with blockchain transparency to create a trustless compliance navigation system.
+Catch Me If You Can combines cutting-edge AI with blockchain transparency to create a trustless compliance navigation system.
 
 **Core Architecture:**
 

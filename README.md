@@ -1,4 +1,4 @@
-# ArbiLens: The Regulatory Navigation Protocol ⚖️
+# Catch Me If You Can: The Regulatory Navigation Protocol ⚖️
 *ETH Global NYC Hackathon Project*
 
 **Protocol enabling transparent, compliant navigation of global regulatory frameworks.**
@@ -9,7 +9,7 @@ A transparent protocol that democratizes access to regulatory navigation, helpin
 
 ## 📊 Project Summary
 
-**ArbiLens** is a Regulatory Navigation Protocol that helps businesses and individuals make informed, compliant decisions when operating across jurisdictions. Rather than leaving regulatory understanding to expensive legal teams at large corporations, this protocol makes sophisticated compliance analysis accessible to everyone.
+**Catch Me If You Can** is a Regulatory Navigation Protocol that helps businesses and individuals make informed, compliant decisions when operating across jurisdictions. Rather than leaving regulatory understanding to expensive legal teams at large corporations, this protocol makes sophisticated compliance analysis accessible to everyone.
 
 ### Core Innovation
 The protocol calculates Expected Value (EV) for regulatory strategies by analyzing:

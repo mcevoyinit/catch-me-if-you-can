@@ -39,7 +39,7 @@ class EVCalculator:
                      risk_profile: RiskProfile,
                      multi_jurisdiction_costs: Optional[float] = None) -> EVResult:
         """
-        Calculate Expected Value using the ArbiLens formula:
+        Calculate Expected Value using the Catch Me If You Can formula:
         EV = Profit - ComplianceCosts - RegulatoryRisks - OpportunityCost - TimeDelayCost
         
         Args:
